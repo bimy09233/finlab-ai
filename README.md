@@ -15,7 +15,7 @@ Claude Code skill for FinLab quantitative trading package, specifically designed
 ### Add the Marketplace
 
 ```bash
-/plugin marketplace add <your-github-username>/finlab-claude-plugin
+/plugin marketplace add koreal6803/finlab-claude-plugin
 ```
 
 ### Install the Plugin
