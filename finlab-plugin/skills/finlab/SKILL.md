@@ -16,6 +16,22 @@ FinLab is a comprehensive Python package for quantitative trading strategy devel
 - **Factor Analysis**: IC calculation, Shapley values, centrality analysis, regression trends
 - **Machine Learning**: Feature engineering for TA-Lib indicators, label generation for returns
 
+## Prerequisites
+
+**Before running any FinLab code, verify:**
+
+1. **API Token is set** (required - finlab will fail without it):
+   ```bash
+   echo $FINLAB_API_TOKEN
+   # If empty, set it: export FINLAB_API_TOKEN="your_token"
+   # Get token from: https://ai.finlab.tw/api_token/
+   ```
+
+2. **FinLab is installed**:
+   ```bash
+   python3 -c "import finlab" || python3 -m pip install finlab
+   ```
+
 ## Quick Start Example
 
 ```python
@@ -348,20 +364,10 @@ See [best-practices.md](best-practices.md) for comprehensive anti-patterns.
 
 ## Installation & Setup
 
-**API Token Required:** Before using FinLab, check if `FINLAB_API_TOKEN` is set. If not, ask the user to:
-1. Get token from https://ai.finlab.tw/api_token/
-2. Provide it so you can help set the environment variable
-
-```bash
-# Set environment variable (add to ~/.zshrc or ~/.bashrc)
-export FINLAB_API_TOKEN="your_token_here"
-```
+See [Prerequisites](#prerequisites) section for API token and installation verification.
 
 ```python
-# Install finlab
-pip install finlab
-
-# Import commonly used modules (token auto-loaded from environment)
+# Common imports
 from finlab import data
 from finlab.backtest import sim
 from finlab.dataframe import FinLabDataFrame
