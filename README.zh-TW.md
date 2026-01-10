@@ -1,20 +1,15 @@
-<p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English"></a>
-  <a href="README.zh-TW.md"><img src="https://img.shields.io/badge/繁體中文-red?style=for-the-badge" alt="繁體中文"></a>
-</p>
+[English](README.md) | [繁體中文](README.zh-TW.md)
 
 # FinLab AI
 
-> 讓你的 AI 批量生產 alpha 策略的捷徑。
+> 給 AI 裝上量化大腦。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai)
 [![Cursor](https://img.shields.io/badge/Cursor-MCP%20Server-blue)](https://cursor.com)
 [![Antigravity](https://img.shields.io/badge/Antigravity-MCP%20Server-green)](https://antigravity.google)
 
-<p align="center">
-  <img src="assets/demo.gif" alt="Demo" width="700">
-</p>
+<img src="assets/demo.gif" alt="Demo" width="700">
 
 ## 快速安裝
 
