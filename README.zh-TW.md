@@ -145,16 +145,13 @@ skill-porter convert ./finlab/skills/finlab --to gemini --output ./finlab-gemini
 ### 方式六：本地 MCP Server（任何 MCP Client）
 
 ```bash
-# Clone 並安裝
 git clone https://github.com/koreal6803/finlab-ai.git
-cd finlab-ai
-pip install -e .
-
-# 執行 MCP server
-python -m mcp_server
+cd finlab-ai/workers
+npm install
+npm run dev
 ```
 
-設定你的 MCP client 使用 stdio transport，指令為 `python -m mcp_server`。
+Server 運行於 `http://localhost:8787/mcp`，將你的 MCP client 指向此位址。
 
 ## 前置需求
 

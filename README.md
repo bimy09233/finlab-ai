@@ -145,16 +145,13 @@ Restart Cursor and start using FinLab documentation in your Agent.
 ### Option 6: Local MCP Server (Any MCP Client)
 
 ```bash
-# Clone and install
 git clone https://github.com/koreal6803/finlab-ai.git
-cd finlab-ai
-pip install -e .
-
-# Run the MCP server
-python -m mcp_server
+cd finlab-ai/workers
+npm install
+npm run dev
 ```
 
-Configure your MCP client to use stdio transport with command `python -m mcp_server`.
+Server runs at `http://localhost:8787/mcp`. Point your MCP client there.
 
 ## Prerequisites
 
