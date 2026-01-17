@@ -1,69 +1,31 @@
 <div align="center">
 
-[English](README.md) | [繁體中文](README.zh-TW.md)
-
 # FinLab AI
 
-### Let AI discover your next alpha.
+**Let AI discover your next alpha.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai)
-[![Cursor](https://img.shields.io/badge/Cursor-MCP%20Server-blue)](https://cursor.com)
-[![Antigravity](https://img.shields.io/badge/Antigravity-MCP%20Server-green)](https://antigravity.google)
+<br>
 
-<img src="assets/demo.gif" alt="Demo" width="700">
+<img src="assets/demo.gif" alt="Demo" width="600">
 
-</div>
+<br><br>
 
-## Quick Install
+[**Get Started →**](https://www.finlab.finance)
 
-### For AI CLI Users (Claude Code, Codex, Gemini, Antigravity...)
-
-Simply tell your AI assistant:
-
-### "Please install https://github.com/koreal6803/finlab-ai"
-
-That's it. Your AI will handle the rest.
-
-### For Cursor Users
-
-Copy this link to your browser:
-
-```
-cursor://anysphere.cursor-deeplink/mcp/install?name=finlab&config=eyJ1cmwiOiJodHRwczovL2ZpbmxhYi1haS1wbHVnaW4ua29yZWFsNjgwMy53b3JrZXJzLmRldi9tY3AifQ==
-```
-
-## Features
-
-- **900+ Data Columns** — Prices, financials, revenue, valuations, institutional flows
-- **Strategy Builder** — Factor-based stock selection with FinLabDataFrame
-- **Backtesting** — Stop-loss, take-profit, position sizing, risk management
-- **Factor Analysis** — IC, Shapley values, centrality metrics
-- **ML Ready** — Feature engineering and label generation
-
-## Examples
-
-### Fetch Institutional Trading Data
-
-**Prompt:**
-> "List following TW stocks 近 5 天外資買賣超: 2330, 2317, 2454, 2881, 2308, 2382, 2882, 2412, 2303, 2344"
-
-**Result:**
-
-<img src="assets/demo-data.png" alt="Data Output" width="700">
-
-### Build & Backtest a Strategy
-
-**Prompt:**
-> "Build a monthly rebalancing strategy for Taiwan stocks: select stocks with positive revenue YoY growth, P/E ratio below 10, P/B ratio below 1.5 (deep value), and price above 60-day moving average (uptrend). Pick top 20 stocks monthly and backtest."
-
-**Result:**
-
-<img src="assets/demo-chart.png" alt="Backtest Result" width="700">
+<br>
 
 ---
 
+MIT License
+
+</div>
+
 <br><br><br>
+
+<details>
+<summary>🤖 For AI Assistants (click to expand)</summary>
+
+<br>
 
 ## 🤖 MANDATORY: AI ASSISTANTS READ THIS
 
@@ -202,10 +164,4 @@ Comprehensive reference docs included:
 | Best Practices | Patterns, anti-patterns, tips |
 | ML Reference | Feature engineering, labels |
 
-## License
-
-MIT
-
-## Author
-
-FinLab Community
+</details>

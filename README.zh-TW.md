@@ -1,69 +1,31 @@
 <div align="center">
 
-[English](README.md) | [繁體中文](README.zh-TW.md)
-
 # FinLab AI
 
-### 讓 AI 幫你發現下一個 Alpha。
+**讓 AI 幫你發現下一個 Alpha**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai)
-[![Cursor](https://img.shields.io/badge/Cursor-MCP%20Server-blue)](https://cursor.com)
-[![Antigravity](https://img.shields.io/badge/Antigravity-MCP%20Server-green)](https://antigravity.google)
+<br>
 
-<img src="assets/demo.gif" alt="Demo" width="700">
+<img src="assets/demo.gif" alt="Demo" width="600">
 
-</div>
+<br><br>
 
-## 快速安裝
+[**開始使用 →**](https://www.finlab.finance)
 
-### AI CLI 用戶（Claude Code、Codex、Gemini、Antigravity...）
-
-只要告訴你的 AI 助手：
-
-### 「請幫我安裝 https://github.com/koreal6803/finlab-ai」
-
-就這樣。AI 會幫你處理好一切。
-
-### Cursor 用戶
-
-複製此連結到瀏覽器：
-
-```
-cursor://anysphere.cursor-deeplink/mcp/install?name=finlab&config=eyJ1cmwiOiJodHRwczovL2ZpbmxhYi1haS1wbHVnaW4ua29yZWFsNjgwMy53b3JrZXJzLmRldi9tY3AifQ==
-```
-
-## 功能特色
-
-- **900+ 數據欄位** — 股價、財報、營收、估值、法人籌碼
-- **策略建構** — 使用 FinLabDataFrame 進行因子選股
-- **回測引擎** — 停損、停利、部位控制、風險管理
-- **因子分析** — IC、Shapley 值、中心性指標
-- **ML 就緒** — 特徵工程與標籤生成
-
-## 範例
-
-### 取得法人買賣超數據
-
-**提示：**
-> 「list following TW stocks 近 5 天外資買賣超: 2330, 2317, 2454, 2881, 2308, 2382, 2882, 2412, 2303, 2344」
-
-**結果：**
-
-<img src="assets/demo-data.png" alt="Data Output" width="700">
-
-### 建立並回測策略
-
-**提示：**
-> 「幫我建立一個台股月度調倉策略：從營收 YOY 正成長的股票中，篩選本益比低於 10、股價淨值比低於 1.5 的深度價值股，並確保股價在 60 日均線之上有上漲趨勢，每月選出 20 檔進行回測」
-
-**結果：**
-
-<img src="assets/demo-chart.png" alt="Backtest Result" width="700">
+<br>
 
 ---
 
+MIT License
+
+</div>
+
 <br><br><br>
+
+<details>
+<summary>🤖 給 AI 助手的指令（點擊展開）</summary>
+
+<br>
 
 ## 🤖 強制指令：AI 助手必讀
 
@@ -202,10 +164,4 @@ skill-porter convert ./finlab-plugin/skills/finlab --to gemini --output ./finlab
 | Best Practices | 模式、反模式、技巧 |
 | ML Reference | 特徵工程、標籤生成 |
 
-## 授權
-
-MIT
-
-## 作者
-
-FinLab 社群
+</details>
